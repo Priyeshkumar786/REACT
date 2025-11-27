@@ -1,0 +1,12 @@
+import React from 'react'
+import { Routes, route } from 'react-router-dom'
+
+const Router = () => {
+  return (
+    <>
+      
+    </>
+  )
+}
+
+export default Router
