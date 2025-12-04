@@ -22,5 +22,5 @@ export const Form = () => {
 
 export default Form
 
-// controlled component = jise react se controlled krte h
+
 // controlled component = jise react se controlled krte h
