@@ -25,3 +25,5 @@ export default Form
 //react has basically two components named 1. controlled and       2. uncontrolled component
 // controlled component = jise react se controlled krte h
 //react only knows controlled component
+// to stop refreshor any reload of page we have to use predefined method named preventDefault
+
