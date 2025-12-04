@@ -3,23 +3,21 @@ import React from "react"
 // import Footer from "./Footer"
 import Hook from "./Hook"
 
-const App=()=>{
+// const App=()=>{
 
-  return(
-    <div>
+//   return(
+//     <div>
     
-    <Navbar/>
+//     <Navbar/>
 
-      {/* <h1>hello cybrom</h1>
-      <p>on mp nagar</p> */}
-      <h1>Home page</h1>
+//       {/* <h1>hello cybrom</h1>
+//       <p>on mp nagar</p> */}
+//       <h1>Home page</h1>
 
-      <Footer/>
-
-
-    </div>
-  )
+//       <Footer/>
 
 
-}
-export default App
+//     </div>
+//   )
+
+

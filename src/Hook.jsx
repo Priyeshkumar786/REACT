@@ -1,56 +1,94 @@
 import React, { useState } from 'react'
 
-const Hook = () => {
-    let [name ,setname]=useState("")
-    let [city ,setcity]=useState("")
+// const Hook = () => {
+//     let [name ,setname]=useState("")
+//     let [city ,setcity]=useState("")
 
-    let inputchange=(e)=>{
-        console.log(e.target.value);
-        setname(e.target.value)
+//     let inputchange=(e)=>{
+//         console.log(e.target.value);
+//         setname(e.target.value)
         
-    }
-    <br />
+//     }
+//     <br />
 
-    let inputchange1=(v)=>{
-        console.log(v.target.value);
-        setcity(v.target.value)
+//     let inputchange1=(v)=>{
+//         console.log(v.target.value);
+//         setcity(v.target.value)
         
-    }
-    return(
-        <>
+//     }
+//     return(
+//         <>
         
-        Enter name: <input type="text" onChange={inputchange} />
-        <br />
+//         Enter name: <input type="text" onChange={inputchange} />
+//         <br />
 
-        Your name is {name}
+//         Your name is {name}
 
-        <br />
+//         <br />
 
-         Enter city: <input type="text" onChange={inputchange1} />
-        <br />
+//          Enter city: <input type="text" onChange={inputchange1} />
+//         <br />
 
-        Your City name is {city}
-
-
+//         Your City name is {city}
 
 
 
-        </>
+
+
+//         </>
         
         
-    )
+//     )
+    
 
+// import { useState } from "react";
 
+function Hook() {
+  const [color, setColor] = useState("");
 
-
-
-
-
-
-
-
-
+  return (
+    <div>
+      <input onChange={(e) => setColor(e.target.value)} />
+      <button onClick={() => (document.body.style.background = color)}>
+        Change
+      </button>
+    </div>
+  );
 }
+
+// export default App;
+
+
+// import { useState } from "react";
+
+// function App() {
+//   const [text, setText] = useState("");
+
+//   return (
+//     <div>
+//       <input
+//         onChange={(e) => setText(e.target.value)}
+//         placeholder="Type something"
+//       />
+
+//       <p>Characters: {text.length}</p>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+
+
+
+
+
+
+
+
+
     // let[any variable,function]=useState(initial value)  ---------syntax of usestate
 
 //     let [count, setcount]=useState(0)
