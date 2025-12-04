@@ -24,3 +24,4 @@ export default Form
 
 
 // controlled component = jise react se controlled krte h
+//react only knows controlled component
