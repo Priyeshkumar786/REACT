@@ -22,6 +22,8 @@ export const Form = () => {
 
 export default Form
 
+//form handling
+
 //react has basically two components named 1. controlled and       2. uncontrolled component
 // controlled component = jise react se controlled krte h
 //react only knows controlled component
