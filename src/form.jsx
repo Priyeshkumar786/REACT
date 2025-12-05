@@ -1,31 +1,44 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-export const Form = () => {
-    let [name,setname]=useState('')
-    let [email,setemail]=useState('')
-
-    let Handlesubmit=(e)=>{
-        e.preventDefault() //stops the form reloading
-        console.log(name,email)
+const valid = () => {
+    let [form,setform]=useState({
+        name:"",
+        email:""
+    });
+    let handleclick=(e)=>{
+        setform({
+            ...form,
+            [e.target.name]:e.target.value
+        })
     }
+    let handlesubmit=(e)=>{
+        e.preventDefault();
+        console.log("Data",form);
+        if(form.name.trim()===""){
+            alert("name can'nt be empty");
+            return;
+        }
+    }
+    
   return (
     <>
-    <div>Form handling</div>
-    <form action="" onSubmit={Handlesubmit}>
-        enter name : <input type="text" value={name} onChange={(e)=>{setname(e.target.value)}} />
-        enter email : <input type="text" value={email}  onChange={(e)=>{setemail(e.target.value)}} />
-        <button type='submit'>save data</button>
+    <h1>Hello..</h1>
+    <form onSubmit={handlesubmit}>
+        <label htmlFor="username">Username:</label>
+        <input type="text"  name="name" onChange={handleclick}  />
+
+        <br /> <br />
+        <label htmlFor="email">Email:</label>
+        <input type="email" name="email" onChange={handleclick} /> <br />
+
+        <input type="submit" />
     </form>
     </>
   )
 }
 
-export default Form
 
-//form handling
+// form validation of more inputs
+//react bits library website
 
-//react has basically two components named 1. controlled and       2. uncontrolled component
-// controlled component = jise react se controlled krte h
-//react only knows controlled component
-// to stop refreshor any reload of page we have to use predefined method named preventDefault
-
+export default valid
