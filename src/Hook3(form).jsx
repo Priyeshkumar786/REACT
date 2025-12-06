@@ -11,4 +11,11 @@ const Hook3 = () => {
 
   let navigate = useNavigate()
 
-  
+  let [form,setform]=useState({
+    name :"",
+    email :"",
+    number :"",
+    // age :"",
+  })
+
+ 
