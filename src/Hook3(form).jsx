@@ -62,4 +62,8 @@ setform({...form ,[e.target.name] : e.target.value})
 
     
   }
- 
+  return (
+    <>
+      <h1>Form handling</h1>
+
+      <form onSubmit={handlesubmit}>
