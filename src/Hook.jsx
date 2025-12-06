@@ -43,18 +43,18 @@ import React, { useState } from 'react'
 
 // import { useState } from "react";
 
-function Hook() {
-  const [color, setColor] = useState("");
+// function Hook() {
+//   const [color, setColor] = useState("");
 
-  return (
-    <div>
-      <input onChange={(e) => setColor(e.target.value)} />
-      <button onClick={() => (document.body.style.background = color)}>
-        Change
-      </button>
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <input onChange={(e) => setColor(e.target.value)} />
+//       <button onClick={() => (document.body.style.background = color)}>
+//         Change
+//       </button>
+//     </div>
+//   );
+// }
 
 // export default App;
 
@@ -124,6 +124,8 @@ function Hook() {
 //   )
 // }
 
-export default Hook
+// export default Hook
 
 //propes, router ,tailwindcss , hooks(usestates)
+
+// =============================================================================
