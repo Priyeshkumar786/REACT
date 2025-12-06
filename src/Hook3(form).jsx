@@ -18,4 +18,15 @@ const Hook3 = () => {
     // age :"",
   })
 
- 
+  let handlechange=(e)=>{
+setform({...form ,[e.target.name] : e.target.value})
+  }
+
+  let handlesubmit=(e)=>{
+
+
+    // preventDefault stops page from reloading
+    // e.preventDefault()   
+    // console.log(name,email);
+    e.preventDefault() ;
+    console.log(form.name);
