@@ -67,3 +67,25 @@ setform({...form ,[e.target.name] : e.target.value})
       <h1>Form handling</h1>
 
       <form onSubmit={handlesubmit}>
+
+    {/* Enter your name: <input type="text" name='name' value={form.name} onChange={(e)=>{setname(e.target.value)}} /> <br /> */}
+    Enter your name: <input type="text" name='name' value={form.name} onChange={handlechange} /> <br /> <br />
+
+    {/* Enter your  email: <input type="text" name='email' value={form.email} onChange={(e)=>{setemail(e.target.value)}} /> <br /> */}
+    Enter your email: <input type="text" name='email' value={form.email} onChange={handlechange}/> <br /> <br />
+
+    {/* Enter Number: <input type="text" name="number" value={form.number} onChange={(e)=>{setnumber(e.target.value)}} /> <br /> */}
+    Enter your number: <input type="text" name='number' value={form.number} onChange={handlechange} /> <br /> <br />
+
+    Enter your Age: <input type="text" name="age" value={form.age} onChange={handlechange} /> <br /> <br />
+
+    <button type='submit'> save data</button>
+
+      </form>
+
+
+    </>
+  )
+}
+
+export default Hook3
