@@ -126,6 +126,5 @@ import React, { useState } from 'react'
 
 // export default Hook
 
-//propes, router ,tailwindcss , hooks(usestates)
 
 // =============================================================================

@@ -1,0 +1,185 @@
+
+//propes, router ,tailwindcss , hooks(usestates)
+
+//dr appointment website
+
+
+===============================REACT==============================
+it a library
+it is scombination of html+js => jsx
+tailwind is a type of css
+developed by meta 2013
+reacts work on SPA(single page application)
+react makes a single page application
+react is fast
+it is a single page application
+it is component based
+it get the code easier 
+and less line of codes
+react uses render nad reload
+react uses virtual dom in place of DOM
+it uses virtual dom which may cause fast response in any page
+react has not one virtual dom it has two (old,new)  (when it compares new virtual dom into old virtual dom)=> this process is said to be named **Diffing**  **
+it has extension like:- .jsx
+json is a dummy database which is in a format of array of object.
+CRA old bundler
+VITE latest bundler which is superfast:
+
+
+to install this open terminal:-   npm(node package manager) is is fasther 15x faster than CRA 
+
+
+syntax to download:- npm create vite@latest _appname_    for e.g -- npm create vite@latest App
+
+     -- it is ES bulit
+ES build converts jsx into javascript code .(earlier babel is used: but is slower)
+browser only understands html css and js code thats why we use ES build which changes jsx file into javascript code.
+framework vs libraries difference (HW)
+npm stands for note package manager
+when we installed packages and run the code :-
+
+public folder- videos photos can be stored.
+src folder-:
+assets- photos/videos,-:
+app.css-: it applies the css in a particular component
+================main.jsx is a main file=====================
+strict mode is used to run the code twice.. (we can remove strict code
+
+it converts the js code into html code 
+export are of 2 types-:
+name export
+default export
+to run again past one code-:
+**npm run dev**
+
+**ES build converts js codde into html code 
+pakage json used to verify he file is installed or not**
+components always converts the code it is said to be function
+
+syntax-:
+import React from "react"
+jsx rule-:
+1. it must be start with capital letters function or component should be written as first letter capital {e.g - App}
+2. the code must be written in curly brases{}
+3. return = > it returns only the single element
+4. it must be exported
+syntax:- export default app  (default export)
+syntax:- name export - : {footer1,footer2}  (in curly brases)    as :- import {footer1,footer2}   export as:- export {dooter1,footer2}
+
+
+return(
+<h1>hello cybrom</h1>
+
+=========================================20/11/25========================================
+entry point =>main.jsx
+                  |
+                  |
+               app.jsx      ('import' of navbar.jsx)
+                  |
+                  |
+              navbar.jsx    ('export' to app.jsx)
+after export we have to import in app.jsx
+              
+in vs code component should be visible in green color
+
+
+
+
+
+rule:-
+if we have to wite javascript we have to write in curly brases{}
+
+
+
+==========================================21-11-2025============================================
+
+
+inline css always use to write in object format {}
+so we will write two {{}} one for js one for object
+
+to add image we use two way
+if image is inside public then directly write in image address
+if image is inside src assest folder then firstly import any name of image from "./assest/"image name"" then using img tag and inside src write with {}
+
+
+Propse(properties)- use to pass data from one component to another 
+the main problem inn propse is data pass in parent-->child
+if its not the child then data won't get pass
+
+
+=========================================22-11-2025========================================
+                                     
+                                       
+react fragment:- <> </> its an empty tag used as a replacement for div
+
+rafce +enter will create a complet component its like doctage in html that gives full 
+
+es7+react extension download
+
+we can write propse or any name on child.jsx using {} we pass data in form of key value
+
+advantage of parse is we don't have to create multiple cart or anything again and again so by propse we simply change name and info and rest is same useful for 
+big site like flipkart,amazon
+
+
+=======================================24-11-2025===========================================
+
+h.w make a cart of 3 required fields of name,image,email
+
+
+=======================================26-11-2025===========================================
+
+by default react always create site for phone 
+0-640-default
+640-768=> sm: (small device)
+768-1024=> md: (medium device)
+1024+ => lg:  (large device)  
+
+here order will matter so we will apply in starting like initially for less than 640px we hidden display then sm:block 
+means one by onr and on md-flex
+
+now to apply icon we use react icon site then scroll down and run dirst command to install then seaarch for whatever 
+icon we want then copy the first command paste on above and then use the tag and write it on wherever we want
+
+component always return jsx
+
+======================================27/11/2025===========================================
+
+route have two attributes named path and element
+path e.g:- '/' (default path)
+
+
+====================================================================
+whenever 'use' used it means it's HOOk 
+hook is used input any function of react
+
+'usestate'  == > state management 
+whenever any state is to be changed in react we use 'usestate'   it Updates UI and re-render
+react says if anything want to saw in react page we have to use 'usestate'
+
+
+
+=================================/04/12/25=====================
+
+Form Handling -- it has two -- 1.controlled   (React knows only )    2. uncontrolled
+
+to stop refreshor any reload of page we have to use predefined method named preventDefault
+
+================================05/12/2025=====================
+
+in form validation the name,value and other... works in only 'attribute' it not work on funtions
+
+===============================06/12/2025============================
+
+//dr appointment website(react)
+
+=================================8/12/25====================================
+
+AOS library
+
+=================================11/12/25================================
+
+in json everything is stored in {} sytax and "" this internally
+
+
+
