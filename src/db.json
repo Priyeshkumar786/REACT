@@ -1,0 +1,12 @@
+
+{
+
+    "hotel": [{
+        "name": "priyesh",
+        "age" : 23,
+        "adhar":12345678,
+        "checkin": "25-12-2025",
+        "checkout": "26-12-2025"
+    },
+    
+    
