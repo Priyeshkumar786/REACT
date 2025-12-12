@@ -50,4 +50,5 @@ export default Datashow
 //  when we use [] as default 1 time ([] it is said to be dependency array)
 //whenever 'use' used it means it's HOOk 
 //'usestate'  == > state management 
-//whenever any state is to be changed in react we use 'usestate'  
+//whenever any state is to be changed in react we use 'usestate'   it Updates UI and re-render
+//
