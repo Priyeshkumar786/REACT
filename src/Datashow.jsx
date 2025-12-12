@@ -52,4 +52,5 @@ export default Datashow
 //'usestate'  == > state management 
 //whenever any state is to be changed in react we use 'usestate'   it Updates UI and re-render
 //react says if anything want to saw in react page we have to use 'usestate'
+hook is used input any function 
 
