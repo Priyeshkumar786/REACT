@@ -1,5 +1,8 @@
 import React from 'react'
 
+
+//have to import tailwind globally have to put tailwind css in index.css
+
 const Map = () => {
 
   let [search,netsearch]=a

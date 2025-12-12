@@ -182,4 +182,17 @@ AOS library
 in json everything is stored in {} sytax and "" this internally
 
 
+================================12/12/2025==============================
 
+useeffects is a funtion which is automatically used while entering the page as default when we use [] as default 1 time ([] it is said to be dependency array)
+
+
+npm i axios       in terminall for installing 
+
+sync line by line is js 
+async is cant wait
+await is a funtion which waits 
+
+in react .then and .catch
+
+200 is for success
