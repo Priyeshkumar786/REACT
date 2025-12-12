@@ -45,3 +45,4 @@ export default Datashow
 // sync line by line is js 
 // async is cant wait
 // await is a funtion which waits 
+//npm i axios       in terminall for installing 
