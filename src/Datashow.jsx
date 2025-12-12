@@ -48,3 +48,6 @@ export default Datashow
 //npm i axios       in terminall for installing 
 //useeffects is a funtion which is automatically used while entering the page as default
 //  when we use [] as default 1 time ([] it is said to be dependency array)
+//whenever 'use' used it means it's HOOk 
+//hook is used input any function of react
+
