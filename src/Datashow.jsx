@@ -42,3 +42,6 @@ export default Datashow
 //propse
 //useEffect Practice
 //in react .then and .catch
+// sync line by line is js 
+// async is cant wait
+// await is a funtion which waits 
