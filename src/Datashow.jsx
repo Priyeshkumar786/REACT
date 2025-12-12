@@ -46,3 +46,5 @@ export default Datashow
 // async is cant wait
 // await is a funtion which waits 
 //npm i axios       in terminall for installing 
+//useeffects is a funtion which is automatically used while entering the page as default
+//  when we use [] as default 1 time ([] it is said to be dependency array)
