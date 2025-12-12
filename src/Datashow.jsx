@@ -37,4 +37,8 @@ export default Datashow
 
 
 //usestate practice
+
+
+//propse
 //useEffect Practice
+//in react .then and .catch
