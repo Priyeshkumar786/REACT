@@ -37,3 +37,4 @@ export default Datashow
 
 
 //usestate practice
+//useEffect Practice
