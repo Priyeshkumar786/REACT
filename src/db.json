@@ -1,28 +1,61 @@
-
 {
-
-    "hotel": [{
-        "name": "priyesh",
-        "age" : 23,
-        "adhar":12345678,
-        "checkin": "25-12-2025",
-        "checkout": "26-12-2025"
+  "hotel": [
+    {
+      "name": "priyesh",
+      "age": 23,
+      "adhar": 12345678,
+      "checkin": "25-12-2025",
+      "checkout": "26-12-2025",
+      "id": "e709"
     },
-    
-    
-    {"name": "tanish",
-        "age" : 23,
-        "adhar":11445748,
-        "checkin": "25-12-2025",
-        "checkout": "26-12-2025"},
-        
-    {"name": "krish",
-        "age" : 25,
-        "adhar":12345478,
-        "checkin": "26-12-2025",
-        "checkout": "27-12-2025"}
-    
-    ]
+    {
+      "name": "tanish",
+      "age": 23,
+      "adhar": 11445748,
+      "checkin": "25-12-2025",
+      "checkout": "26-12-2025",
+      "id": "7bce"
+    },
+    {
+      "name": "krish",
+      "age": 25,
+      "adhar": 12345478,
+      "checkin": "26-12-2025",
+      "checkout": "27-12-2025",
+      "id": "3ee7"
+    },
+    {
+      "id": "fe81",
+      "name": "Priyesh Kumar Mishra",
+      "age": "23",
+      "aadhar": "",
+      "city": "",
+      "checkin": "2025-12-17",
+      "checkout": "2025-12-18",
+      "people": "3",
+      "person": 500
+    },
+    {
+      "id": "5e27",
+      "name": "Priyesh Kumar Mishra",
+      "age": "23",
+      "aadhar": "724525425245",
+      "city": "",
+      "checkin": "2025-12-17",
+      "checkout": "2025-12-18",
+      "people": "3",
+      "person": 500
+    },
+    {
+      "id": "3fd2",
+      "name": "n2",
+      "age": "24",
+      "aadhar": "885885885885",
+      "city": "",
+      "checkin": "2025-12-09",
+      "checkout": "2025-12-31",
+      "people": "5",
+      "person": 500
+    }
+  ]
 }
-
-

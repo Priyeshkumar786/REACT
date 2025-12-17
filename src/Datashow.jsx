@@ -1,40 +1,70 @@
 import axios from 'axios'
-import React, { useEffect } from 'react'
+import React, { useState } from 'react'
 
-const Datashow = () => {
+const DataShow = () => {
 
-
-    useEffect(()=>{
-
-
-        // let res = fetch(api , {method:"GET"})  js 
-
-        let api = "ttp://localhost:3000/hotel"
-        axios.get(api).then(  (res)=>{
-
-            console.log(res);
-            
-        }).catch((err)=>{
-            console.log("Error",err);
-            
-
-        })
-
-    },[])                                 
-
-
-
-
+    let [form,setform]=useState({
+        name:"",
+        age:"",
+        aadhar:"",
+        city:"",
+        checkin:"",
+        checkout:"",
+        people:"",
+    })
     
+    let handlechange=(e)=>{
+        setform({...form,[e.target.name]:e.target.value})
+    }
+    const handleSubmit = async (e) => {
+    e.preventDefault();
+    let valid=true
+    e.preventDefault();
+    if (form.name.trim()==""){
+        alert("Name cannot be epmty")
+        valid=false
+    }
+
+    else if(form.aadhar.trim()==""){
+        alert("please enter number")
+        valid-false
+    }
+
+    if(valid){
+        let api="http://localhost:3000/hotel"
+        axios.post(api,{...form,person:500}).then((res)=>{
+            alert("data submitted")
+        })
+    }
+}
   return (
     <>
-      <h1>DATA SHOW PAGE</h1>
+      <h1>form handling </h1>
+      <form onSubmit={handleSubmit}>
+      enter name: <input type="text" name="name" value={form.name} onChange={handlechange} />  <br />
+      enter age: <input type="text" name="age" value={form.age} onChange={handlechange} />  <br />
+      enter aadhar: <input type="text" name="aadhar" value={form.aadhar} onChange={handlechange} />  <br />
+      select city
+      <select name="city" value={form.city} onChange={handlechange}> <br />
+        <option value="bhopal">bhopal</option>
+        <option value="indore">indore</option>
+        <option value="jabalpur">jabalpur</option>
+        <option value="satna">satna</option>
+      </select>
+
+      enter checkin: <input type="date" name="checkin" value={form.checkin} onChange={handlechange} />  <br />
+
+      enter checkout: <input type="date" name="checkout" value={form.checkout} onChange={handlechange} />  <br />
+    enter people: <input type="text" name="people" value={form.people} onChange={handlechange} />  <br />
+
+    <button type='submit'>save data </button>
+
+    </form>
     </>
   )
 }
 
-export default Datashow
-
+export default DataShow
 
 //usestate practice
 
@@ -52,5 +82,7 @@ export default Datashow
 //'usestate'  == > state management 
 //whenever any state is to be changed in react we use 'usestate'   it Updates UI and re-render
 //react says if anything want to saw in react page we have to use 'usestate'
-hook is used input any function of react
+// hook is used input any function of react
 
+// sync line by line is js 
+// async is cant wait
