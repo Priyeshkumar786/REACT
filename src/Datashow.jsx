@@ -86,3 +86,10 @@ export default DataShow
 
 // sync line by line is js 
 // async is cant wait
+
+{/* <select name="city" value={form.city} onChange={handlechange}> <br />
+        <option value="bhopal">bhopal</option>
+        <option value="indore">indore</option>
+        <option value="jabalpur">jabalpur</option>
+        <option value="satna">satna</option>
+      </select> */}
