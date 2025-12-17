@@ -112,3 +112,10 @@ export default DataShow
       //   <option value="jabalpur">jabalpur</option>
       //   <option value="satna">satna</option>
       // </select>
+
+      // <select name="city" value={form.city} onChange={handlechange}> <br />
+      //   <option value="bhopal">bhopal</option>
+      //   <option value="indore">indore</option>
+      //   <option value="jabalpur">jabalpur</option>
+      //   <option value="satna">satna</option>
+      // </select>
