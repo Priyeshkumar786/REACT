@@ -167,4 +167,7 @@ export default on
 // react pagination 
 //npm i axios       in terminall for installing 
 // need to use usestates
+// //
+//       enter checkout: <input type="date" name="checkout" value={form.checkout} onChange={handlechange} />  <br />
+
 
