@@ -265,5 +265,39 @@ export default InputExample;
 
 // ------------------------------------------------------
 
+import React, { useState } from 'react';
+
+function TodoApp() {
+  const [task, setTask] = useState('');
+  const [tasks, setTasks] = useState([]);
+
+  const addTask = () => {
+    if (task.trim() !== '') {
+      setTasks([...tasks, task]);
+      setTask('');
+    }
+  };
+
+  return (
+    <div>
+      <h2>To-Do List</h2>
+      <input
+        type="text"
+        placeholder="Enter task"
+        value={task}
+        onChange={(e) => setTask(e.target.value)}
+      />
+      <button onClick={addTask}>Add</button>
+
+      <ul>
+        {tasks.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default TodoApp;
 
 
