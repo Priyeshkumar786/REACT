@@ -172,4 +172,24 @@ export default on
 //     enter people: <input type="text" name="people" value={form.people} onChange={handlechange} />  <br />
 //need to put this lines 
 
+// -----------------------------------------------------------------------------------------------------------------------
+
+
+import React, { useState } from 'react';
+
+function ToggleButton() {
+  const [isOn, setIsOn] = useState(false);
+
+  return (
+    <div>
+      <button onClick={() => setIsOn(!isOn)}>
+        {isOn ? 'ON' : 'OFF'}
+      </button>
+    </div>
+  );
+}
+
+export default ToggleButton;
+
+
 
