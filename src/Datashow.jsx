@@ -190,6 +190,20 @@ function ToggleButton() {
 }
 
 export default ToggleButton;
+// -------------------------------------------------------------------------------------
+
+import React from 'react';
+
+function MyInfo() {
+  return (
+    <div>
+      <h2>My name is Priyesh</h2>
+      <p>I am 22 years old</p>
+    </div>
+  );
+}
+
+export default MyInfo;
 
 
 
