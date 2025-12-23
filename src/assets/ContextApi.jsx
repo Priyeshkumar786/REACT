@@ -3,3 +3,4 @@
 // iit basically always inherits parents data not grandparents data
 
 // Other functions are used in let UserContext = createContext()
+// need to use Provider
