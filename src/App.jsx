@@ -2,6 +2,7 @@ import React from "react"
 // import Navbar from "./Navbar"
 // import Footer from "./Footer"
 import Hook from "./Hook"
+// import Hook from "./Hook"
 
 // const App=()=>{
 
@@ -19,5 +20,6 @@ import Hook from "./Hook"
 
 //     </div>
 //   )
+
 
 
