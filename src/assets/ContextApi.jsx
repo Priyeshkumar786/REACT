@@ -11,3 +11,16 @@
 //props drilling
 
 // hooks  are imp 
+//useref no re render
+//cant update is UI
+
+
+
+
+//todo list get krna search krna
+//form validation
+//useeffect usestates use memo hooks usereducer propdrilling virtual dom
+//to use useref we havr to firstly import
+
+
+//bebl and es built helps to convert the react code in javascript
