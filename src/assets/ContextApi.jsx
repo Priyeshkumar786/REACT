@@ -29,3 +29,4 @@
 //ui componants
 //function components
 //useeffects takes the syntax ----it controlm the sideeffect of any function
+// usememo used in every function and publically 
