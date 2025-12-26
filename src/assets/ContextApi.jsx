@@ -26,3 +26,6 @@
 //bebl and es built helps to convert the react code in javascript
 // usememo useref HOOKS 
 // jsx rule
+//ui componants
+//function components
+//useeffects takes the syntax ----it controlm the sideeffect of any function
