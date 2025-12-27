@@ -107,3 +107,28 @@ function Form() {
     </form>
   );
 }
+
+
+// ------------------------------------
+
+
+import { ErrorBoundary } from 'react-error-boundary';
+import { FetchData } from './FetchData';
+
+function ErrorFallback({ error, resetErrorBoundary }) {
+  return (
+    <div role="alert">
+      <p>Something went wrong:</p>
+      <pre>{error.message}</pre>
+      <button onClick={resetErrorBoundary}>Try again</button>
+    </div>
+  );
+}
+
+export function App() {
+  return (
+    <ErrorBoundary FallbackComponent={ErrorFallback}>
+      <FetchData />
+    </ErrorBoundary>
+  );
+}
