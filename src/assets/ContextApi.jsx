@@ -139,3 +139,21 @@ export function FetchData() {
   throw new Error('Error fetching data');
   return <p>This will never render</p>;
 }
+// ----------------------------------------
+
+import { useState } from 'react';
+import { Modal } from './modal';
+
+export function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div>
+      <button onClick={() => setIsOpen(true)}>Open Modal</button>
+      <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
+        <h1>Modal Title</h1>
+        <p>Modal Content</p>
+      </Modal>
+    </div>
+  );
+}
