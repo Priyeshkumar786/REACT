@@ -132,3 +132,10 @@ export function App() {
     </ErrorBoundary>
   );
 }
+
+// ======================================================
+
+export function FetchData() {
+  throw new Error('Error fetching data');
+  return <p>This will never render</p>;
+}
