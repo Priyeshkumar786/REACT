@@ -160,3 +160,14 @@ export function App() {
 
 
 // ---------------------------theory question-----------------------------
+// The primary purpose of props in React is to provide the following component functionality:
+
+// Pass custom data to your React component.
+
+// Trigger state changes.
+
+// Use via this.props.reactProp inside component's render() method.
+
+// For example, let us create an element with reactProp property,
+
+//  <Element reactProp = "1" />
