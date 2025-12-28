@@ -212,3 +212,9 @@ export function App() {
 //     return <Button theme={this.context} />;
 //   }
 // }
+
+// -------------------------------------------
+
+// Hooks are a new addition to React 16.8. They let you use state and other React features without writing a class.
+
+// With Hooks, you can extract stateful logic from a component so it can be tested independently and reused. Hooks allow you to reuse stateful logic without changing your component hierarchy. This 
