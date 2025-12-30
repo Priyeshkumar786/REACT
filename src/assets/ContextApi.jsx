@@ -240,3 +240,18 @@ What is JSX? Why is it used?
 
 Can we write React without JSX?
 
+⚙️ 2. Components and Props
+
+What are props in React?
+
+How do you pass data from parent to child component?
+
+What is the difference between props and state?
+
+Can props be changed inside a component?
+
+What happens if you don’t pass props correctly?
+
+
+// ------------------------------------------------
+
