@@ -310,3 +310,22 @@ How do you create navigation between pages?
 What is <Link> in React Router?
 
 What is the difference between <Link> and <a> tag?
+// -------------------------------------------------------
+
+
+
+🧭 7. Miscellaneous Questions
+
+What is Virtual DOM?
+
+How does React update the UI efficiently?
+
+What are keys in React lists?
+
+Why are keys important?
+
+What is conditional rendering?
+
+How can you render a list of items in React?
+// -----------------------------------------------------------
+
