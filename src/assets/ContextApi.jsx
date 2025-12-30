@@ -329,3 +329,15 @@ What is conditional rendering?
 How can you render a list of items in React?
 // -----------------------------------------------------------
 
+
+🧱 8. Project / Practical Questions
+
+Explain how your React project works.
+
+What is the role of App.js and index.js?
+
+How do you import and export components?
+
+How do you style components in React?
+
+How do you run a React project (commands)?
