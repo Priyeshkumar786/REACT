@@ -298,3 +298,15 @@ How can you handle form submissions in React?
 What is a controlled component?
 // --------------------------------------------
 
+// ------------------------------------------
+
+
+🌐 6. Routing and Navigation
+
+What is React Router?
+
+How do you create navigation between pages?
+
+What is <Link> in React Router?
+
+What is the difference between <Link> and <a> tag?
