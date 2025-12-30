@@ -218,3 +218,25 @@ export function App() {
 // Hooks are a new addition to React 16.8. They let you use state and other React features without writing a class.
 
 // With Hooks, you can extract stateful logic from a component so it can be tested independently and reused. Hooks allow you to reuse stateful logic without changing your component hierarchy. This 
+
+
+// -------------------------------------------------
+
+🧠 1. Introduction and Basics
+
+What is React?
+
+Who developed React?
+
+What is the difference between React and JavaScript?
+
+What are the advantages of using React?
+
+What is a component in React?
+
+What are functional components and class components?
+
+What is JSX? Why is it used?
+
+Can we write React without JSX?
+
