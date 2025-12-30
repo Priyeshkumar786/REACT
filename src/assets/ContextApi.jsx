@@ -284,3 +284,17 @@ What are React lifecycle methods (for class components)?
 When does useEffect run?
 
 How do you stop useEffect from running continuously?
+// -------------------------------------------------------
+
+
+🧩 5. Events and Forms
+
+How do you handle events in React?
+
+What is the difference between HTML and React event handling?
+
+How can you handle form submissions in React?
+
+What is a controlled component?
+// --------------------------------------------
+
