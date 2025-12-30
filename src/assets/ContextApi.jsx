@@ -274,3 +274,13 @@ Can we use hooks inside loops or conditions?
 // ------------------------------------------------------------
 
 
+
+🔄 4. Lifecycle & useEffect
+
+What is the purpose of the useEffect hook?
+
+What are React lifecycle methods (for class components)?
+
+When does useEffect run?
+
+How do you stop useEffect from running continuously?
