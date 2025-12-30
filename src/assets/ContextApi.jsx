@@ -255,3 +255,22 @@ What happens if you don’t pass props correctly?
 
 // ------------------------------------------------
 
+
+💾 3. State and Hooks
+
+What is state in React?
+
+How do you define state in a functional component?
+
+What is the purpose of the useState hook?
+
+What are hooks in React?
+
+Name a few commonly used hooks.
+
+What is the difference between useState and useEffect?
+
+Can we use hooks inside loops or conditions?
+// ------------------------------------------------------------
+
+
