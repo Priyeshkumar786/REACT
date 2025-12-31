@@ -39,3 +39,4 @@ u// import { useState } from "react"
 //Have to practice in web
 // Have to use props
 // have to add use effect 
+//:+tovupdate the tables
