@@ -1,4 +1,4 @@
-// import { useState } from "react"
+u// import { useState } from "react"
 // import React, {UseEffects,useState} from  from react
 
 // const Useeffects =(){
@@ -38,3 +38,4 @@
 
 //Have to practice in web
 // Have to use props
+// have to add use effect 
