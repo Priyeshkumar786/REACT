@@ -199,4 +199,5 @@ in react .then and .catch
 
 ---------------------------------
 Form Handling -- it has two -- 1.controlled   (React knows only )    2. uncontrolled
+to stop refreshor any reload of page we have to use predefined method named preventDefault
 
