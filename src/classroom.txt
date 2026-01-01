@@ -196,3 +196,7 @@ await is a funtion which waits
 in react .then and .catch
 
 200 is for success
+
+---------------------------------
+Form Handling -- it has two -- 1.controlled   (React knows only )    2. uncontrolled
+
