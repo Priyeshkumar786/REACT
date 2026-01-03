@@ -18,6 +18,13 @@ const App = ()=>{
     )
 }
 
-        
+
+    const Footer3=()=>{
+    return(
+        <div>
+            <h3>Footer3</h3>
+        </div>
+    )
+}
     )
 }
