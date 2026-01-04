@@ -27,7 +27,10 @@ export default Form
 //<div>Form handling</div>
   //  <form action="" onSubmit={Handlesubmit}>
    //     enter name : <input type="text" value={name} onChange={(e)=>{setname(e.target.value)}} />
-  
+  //      enter email : <input type="text" value={email}  onChange={(e)=>{setemail(e.target.value)}} />
+  //      enter number : <input type="text" value={number}  onChange={(e)=>{setnumber(e.target.value)}} />
+   //     <button type='submit'>save data</button>
+  //  </form>
 
 //react has basically two components named 1. controlled and       2. uncontrolled component
 // controlled component = jise react se controlled krte h
