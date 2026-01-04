@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+hiimport React, { useState } from 'react'
 
 export const Form = () => {
     let [name,setname]=useState('')
@@ -24,6 +24,10 @@ export const Form = () => {
 export default Form
 
 //form handling
+//<div>Form handling</div>
+  //  <form action="" onSubmit={Handlesubmit}>
+   //     enter name : <input type="text" value={name} onChange={(e)=>{setname(e.target.value)}} />
+  
 
 //react has basically two components named 1. controlled and       2. uncontrolled component
 // controlled component = jise react se controlled krte h
