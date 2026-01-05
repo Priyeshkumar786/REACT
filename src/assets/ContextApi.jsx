@@ -392,3 +392,11 @@ Trigger state changes.
 Use via this.props.reactProp inside component's render() method.
 
 For example, let us create an element with reactProp property,
+
+
+
+What is Context API in ReactJS?
+Entry
+Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+
+Context is designed to share data that can be considered “global” for a tree of React components, such as the current authenticated user, theme, or preferred language. Using context, we can avoid passing props through intermediate elements.
