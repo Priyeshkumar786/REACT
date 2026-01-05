@@ -348,4 +348,13 @@ How do you run a React project (commands)?
 In React Router, the browser history represents the user's navigation actions and URL changes within a web browser. React Router provides a history object that allows programmatically manipulating the browser's history that enable features like navigation, back and forward actions, and accessing location information.
 
 
+import { useHistory } from 'react-router-dom';
+
+function MyComponent() {
+    const history = useHistory();
+
+    function handleClick() {
+        // Programmatically navigate to a new route
+        history.push('/new-route');
+    }
 }
