@@ -362,3 +362,16 @@ function MyComponent() {
 How does React work?
 Entry
 React creates a virtual DOM. When state changes in a component it firstly runs a "diffing" algorithm, which identifies what has changed in the virtual DOM. The second step is reconciliation, where it updates the DOM with the re
+
+
+What is the use of refs?
+Entry
+Refs provide a way to access DOM nodes or React elements created in the render method. They should be avoided in most cases, however, they can be useful when we need direct access to the DOM element or an instance of a component.
+
+There are a few good use cases for refs:
+
+Managing focus, text selection, or media playback.
+
+Triggering imperative animations.
+
+Integrating with third-party DOM libraries.
