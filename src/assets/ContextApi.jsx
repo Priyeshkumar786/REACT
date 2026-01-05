@@ -341,3 +341,11 @@ How do you import and export components?
 How do you style components in React?
 
 How do you run a React project (commands)?
+
+// -----------------react routing-------------------------
+
+5. What is browser history in React Router?
+In React Router, the browser history represents the user's navigation actions and URL changes within a web browser. React Router provides a history object that allows programmatically manipulating the browser's history that enable features like navigation, back and forward actions, and accessing location information.
+
+
+}
