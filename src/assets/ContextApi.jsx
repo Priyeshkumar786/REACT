@@ -405,3 +405,4 @@ Context is designed to share data that can be considered “global” for a tree
 
 import { createContext } from "react";
 const UserContext = createContext();
+`export default UserContext;`
