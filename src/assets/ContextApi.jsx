@@ -405,4 +405,7 @@ Context is designed to share data that can be considered “global” for a tree
 
 import { createContext } from "react";
 const UserContext = createContext();
-`export default UserContext;`
+`export default UserContext;
+// -------------------
+
+// In the above code, we have created a context using createContext() method and exported it to be used in other components.`
