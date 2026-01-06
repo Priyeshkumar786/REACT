@@ -408,4 +408,5 @@ const UserContext = createContext();
 `export default UserContext;
 // -------------------
 
-// In the above code, we have created a context using createContext() method and exported it to be used in other components.`
+// In the above code, we have created a context using createContext() method and exported it to be used in other components.
+// To provide a context value to the component tree, we can use the Provider component that comes with the context object.`
