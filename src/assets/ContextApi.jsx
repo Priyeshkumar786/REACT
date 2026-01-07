@@ -423,3 +423,7 @@ function ParentComponent() {
     </UserContext.Provider>
   );
 }
+export default ParentComponent;
+
+// In the above code, we have wrapped the ChildComponent with UserContext.Provider and provided a value to it.
+// Now, any component within the ChildComponent tree can access the user object using the useContext hook or the Consumer component.
