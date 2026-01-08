@@ -435,3 +435,4 @@ export default UserContext
 // To provide a context value to the component tree, we can use the Provider component that comes with the context object.
 // Here is an example of how to use the UserContext.Provider to provide a value to the component tree:
 import React from "react";
+import UserContext from "./UserContext";
