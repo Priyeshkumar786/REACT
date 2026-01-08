@@ -431,4 +431,4 @@ import { createContext } from "react";
 
 let UserContext = createContext()
 export default UserContext
-
+// In the above code, we have created a context using createContext() method and exported it to be used in other components.
