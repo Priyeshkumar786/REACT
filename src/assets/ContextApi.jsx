@@ -436,3 +436,11 @@ export default UserContext
 // Here is an example of how to use the UserContext.Provider to provide a value to the component tree:
 import React from "react";
 import UserContext from "./UserContext";
+
+st name = "Learner";
+const element = (
+    <h1>
+        Hello,
+        {name}.Welcome to GeeksforGeeks.
+    </h1>
+);
