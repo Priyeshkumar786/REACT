@@ -447,3 +447,4 @@ const element = (
 
 const element = React.createElement("h1", null, "Hello, World!");
 import ChildComponent from "./ChildComponent";
+function ParentComponent() {
