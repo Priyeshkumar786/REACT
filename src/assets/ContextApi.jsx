@@ -450,3 +450,5 @@ import ChildComponent from "./ChildComponent";
 function ParentComponent() {  
   const user = { name: "John", age: 30 };
   return (
+    <UserContext.Provider value={user}>
+      <ChildComponent />
