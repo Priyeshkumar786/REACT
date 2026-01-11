@@ -444,3 +444,6 @@ const element = (
         {name}.Welcome to GeeksforGeeks.
     </h1>
 );
+
+const element = React.createElement("h1", null, "Hello, World!");
+import ChildComponent from "./ChildComponent";
