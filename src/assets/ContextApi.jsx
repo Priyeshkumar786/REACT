@@ -452,3 +452,4 @@ function ParentComponent() {
   return (
     <UserContext.Provider value={user}>
       <ChildComponent />
+    </UserContext.Provider>
