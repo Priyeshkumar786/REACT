@@ -484,3 +484,8 @@ function ParentComponent() {
 //   console.log('Effect runs');
 //   return () => console.log('Cleanup runs');
 // }, [dependency]);
+
+// const [state, dispatch] = useReducer(reducer, initialState);
+
+// // Example usage:
+// dispatch({ type: 'increment' });
