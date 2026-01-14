@@ -479,3 +479,8 @@ function ParentComponent() {
 //     </div>
 //   );
 // }
+
+// useEffect(() => {
+//   console.log('Effect runs');
+//   return () => console.log('Cleanup runs');
+// }, [dependency]);
