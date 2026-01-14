@@ -506,3 +506,4 @@ function App() {
     </div>
   );
 }
+  setCount(prevCount => prevCount + 1);
