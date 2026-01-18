@@ -207,5 +207,7 @@ to stop refreshor any reload of page we have to use predefined method named prev
 
 import React from 'react';
 
-function FruitList() 
+function FruitList() {
+  const fruits = ['Apple', 'Banana', 'Mango', 'Orange'];
+
 
