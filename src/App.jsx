@@ -1,23 +1,29 @@
-import React from "react"
-// import Navbar from "./Navbar"
-// import Footer from "./Footer"
-import Hook from "./Hook"
+import './App.css'
+import { Routes , Route } from 'react-router-dom'
+import Layout from './Layout'
+import Home from './Home'
+import About from './About'
+import Register from './Register'
+import Login from './Login'
 
-// const App=()=>{
+// here we can import bits for targetting the whole page
+function App() {
+  
 
-//   return(
-//     <div>
-    
-//     <Navbar/>
+  return (
+    <>
+       <Routes>
+        <Route path='/' element={<Layout/>}>
+        <Route index element={<Home/>} />
+        <Route path='about' element={<About/>} />
+        <Route path='register' element={<Register/>} />
+        <Route path='login' element={<Login/>} />
+ 
+        </Route>
+        
+    </Routes>
+    </>
+  )
+}
 
-//       {/* <h1>hello cybrom</h1>
-//       <p>on mp nagar</p> */}
-//       <h1>Home page</h1>
-
-//       <Footer/>
-
-
-//     </div>
-//   )
-
-
+export default App
