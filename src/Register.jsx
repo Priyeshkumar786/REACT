@@ -126,3 +126,9 @@ return (
     <ChildComponent2 />
   </>
 );
+
+
+{
+  items.map((item) => <ListItem key={item.id} value={item.value} />);
+}
+
