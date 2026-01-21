@@ -148,3 +148,8 @@ function UncontrolledInput() {
   return <input type="text" ref={inputRef} />;
 }
 
+
+function UncontrolledInput() {
+  const inputRef = React.useRef();
+  return <input type="text" ref={inputRef} />;
+}
