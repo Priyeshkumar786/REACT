@@ -132,3 +132,14 @@ return (
   items.map((item) => <ListItem key={item.id} value={item.value} />);
 }
 
+function ControlledInput() {
+  const [value, setValue] = React.useState('');
+  return (
+    <input
+      type="text"
+      value={value}
+      onChange={(e) => setValue(e.target.value)}
+    />
+  );
+}
+
