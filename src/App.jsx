@@ -1,25 +1,41 @@
+<<<<<<< HEAD
+import './App.css'
+import { Routes , Route } from 'react-router-dom'
+import Layout from './Layout'
+import Home from './Home'
+import About from './About'
+import Register from './Register'
+import Login from './Login'
+=======
 import React from "react"
 // import Navbar from "./Navbar"
 // import Footer from "./Footer"
 import UserContext from "./Hook"
 // import Hook from "./Hook"
+>>>>>>> 3613ce4ea9520932a280f3fcdfc42df59f855fb7
 
-// const App=()=>{
+// here we can import bits for targetting the whole page
+function App() {
+  
 
-//   return(
-//     <div>
-    
-//     <Navbar/>
+  return (
+    <>
+       <Routes>
+        <Route path='/' element={<Layout/>}>
+        <Route index element={<Home/>} />
+        <Route path='about' element={<About/>} />
+        <Route path='register' element={<Register/>} />
+        <Route path='login' element={<Login/>} />
+ 
+        </Route>
+        
+    </Routes>
+    </>
+  )
+}
 
-//       {/* <h1>hello cybrom</h1>
-//       <p>on mp nagar</p> */}
-//       <h1>Home page</h1>
+<<<<<<< HEAD
+export default App
+=======
 
-//       <Footer/>
-
-
-//     </div>
-//   )
-
-
-
+>>>>>>> 3613ce4ea9520932a280f3fcdfc42df59f855fb7
