@@ -380,3 +380,5 @@ export default Home
 // import { useState } from "react"
 // import React, {UseEffects,useState} from  from react
 
+// const Useeffects =(){
+//     let[count,setcount] = useState(0)
