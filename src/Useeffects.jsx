@@ -1,4 +1,4 @@
-u// import { useState } from "react"
+// import { useState } from "react"
 // import React, {UseEffects,useState} from  from react
 
 // const Useeffects =(){
@@ -42,12 +42,3 @@ u// import { useState } from "react"
 //:+tovupdate the tables
 // have to seoarate useref questions
 // add More 
-
-add More 
-add More 
-add More 
-add More 
-add More 
-add More 
-add More 
-add More 
