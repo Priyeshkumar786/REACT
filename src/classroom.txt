@@ -382,3 +382,8 @@ export default Home
 
 // const Useeffects =(){
 //     let[count,setcount] = useState(0)
+//     let Inc =()=>{
+//         setcount(count+1)
+//     }
+
+//     Useeffects( ()=>{
