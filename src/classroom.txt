@@ -387,3 +387,6 @@ export default Home
 //     }
 
 //     Useeffects( ()=>{
+//         console.log("Running....");
+        
+//     } ,[])
