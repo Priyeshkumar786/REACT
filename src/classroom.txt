@@ -390,3 +390,7 @@ export default Home
 //         console.log("Running....");
         
 //     } ,[])
+
+let[count,setcount] = useState(0)
+//     let Inc =()=>{
+//         setcount(count+1)
