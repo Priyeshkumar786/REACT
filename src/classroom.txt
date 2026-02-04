@@ -394,3 +394,23 @@ export default Home
 let[count,setcount] = useState(0)
 //     let Inc =()=>{
 //         setcount(count+1)
+
+
+const App = ()=>{
+    return(
+        const Footer3=()=>{
+    return(
+        <div>
+            <h3>Footer3</h3>
+        </div>
+    )
+    }
+    const Footer3=()=>{
+    return(
+        <div>
+            <h3>Footer3</h3>
+        </div>
+    )
+}
+
+export default FruitList;
