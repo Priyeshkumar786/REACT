@@ -513,3 +513,12 @@ const Map = () => {
   // let Data =[(),(),()]
 
 
+const Map = () => {
+
+  let [search,netsearch]=a
+
+  // let Mydata=["siddharth" , "Arun" , "Shivam" , "Raja"]
+
+  // let Data =[(),(),()]
+
+
