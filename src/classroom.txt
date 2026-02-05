@@ -503,3 +503,13 @@ function MyInfo() {
 }
 
 export default MyInfo;
+
+const Map = () => {
+
+  let [search,netsearch]=a
+
+  // let Mydata=["siddharth" , "Arun" , "Shivam" , "Raja"]
+
+  // let Data =[(),(),()]
+
+
