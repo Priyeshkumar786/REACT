@@ -170,4 +170,22 @@ const Login = () => {
       navigate('/')
     }
   }
-  
+  return (
+    <>
+      <form onSubmit={handlesubmit}>
+      <label>email</label>
+        <input type="text"  id="email" name='myemail' value={login.myemail} onChange={handlechange}/> <br /> <br />
+        
+
+        <label>password</label>
+        <input type="text" id='password' name='mypassword' value={login.mypassword} onChange={handlechange}/><br /> <br />
+
+
+      <label>login</label>
+      <input type="submit"  />
+      </form>
+    </>
+  )
+}
+
+export default Login
