@@ -158,4 +158,10 @@ const Login = () => {
       valid=false
     }
 
+    else if(!(login.mypassword==localStorage.getItem("mypassword"))){
+      alert("password does not match")
+      // document.querySelector('#password').focus()
+      valid=false
+    }
+
     
