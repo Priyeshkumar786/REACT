@@ -164,4 +164,10 @@ const Login = () => {
       valid=false
     }
 
-    
+    if(valid==true){
+      alert("login successfull!")
+
+      navigate('/')
+    }
+  }
+  
