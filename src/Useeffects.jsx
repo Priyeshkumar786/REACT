@@ -43,86 +43,101 @@
 // have to seoarate useref questions
 // add More 
 
-const App = ()=>{
-    return(
-        const Footer3=()=>{
-    return(
-        <div>
-            <h3>Footer3</h3>
-        </div>
-    )
-    }
-    const Footer3=()=>{
-    return(
-        <div>
-            <h3>Footer3</h3>
-        </div>
-    )
-}
+// const App = ()=>{
+//     return(
+//         const Footer3=()=>{
+//     return(
+//         <div>
+//             <h3>Footer3</h3>
+//         </div>
+//     )
+//     }
+//     const Footer3=()=>{
+//     return(
+//         <div>
+//             <h3>Footer3</h3>
+//         </div>
+//     )
+// }
 
-export default FruitList;
-
-
+// export default FruitList;
 
 
 
-// -------------------------------
 
 
-const App = ()=>{
-    return(
-        const Footer3=()=>{
-    return(
-        <div>
-            <h3>Footer3</h3>
-        </div>
-    )
-    }
-    const Footer3=()=>{
-    return(
-        <div>
-            <h3>Footer3</h3>
-        </div>
-    )
-}
-
-export default FruitList;
+// // -------------------------------
 
 
-const App = ()=>{
-    return(
-        const Footer3=()=>{
-    return(
-        <div>
-            <h3>Footer3</h3>
-        </div>
-    )
-    }
-    const Footer3=()=>{
-    return(
-        <div>
-            <h3>Footer3</h3>
-        </div>
-    )
-}
+// const App = ()=>{
+//     return(
+//         const Footer3=()=>{
+//     return(
+//         <div>
+//             <h3>Footer3</h3>
+//         </div>
+//     )
+//     }
+//     const Footer3=()=>{
+//     return(
+//         <div>
+//             <h3>Footer3</h3>
+//         </div>
+//     )
+// }
 
-export default FruitList;
+// export default FruitList;
 
-const App = ()=>{
-    return(
-        const Footer3=()=>{
-    return(
-        <div>
-            <h3>Footer3</h3>
-        </div>
-    )
-    }
-    const Footer3=()=>{
-    return(
-        <div>
-            <h3>Footer3</h3>
-        </div>
-    )
-}
 
-export default FruitList;
+// const App = ()=>{
+//     return(
+//         const Footer3=()=>{
+//     return(
+//         <div>
+//             <h3>Footer3</h3>
+//         </div>
+//     )
+//     }
+//     const Footer3=()=>{
+//     return(
+//         <div>
+//             <h3>Footer3</h3>
+//         </div>
+//     )
+// }
+
+// export default FruitList;
+
+// const App = ()=>{
+//     return(
+//         const Footer3=()=>{
+//     return(
+//         <div>
+//             <h3>Footer3</h3>
+//         </div>
+//     )
+//     }
+//     const Footer3=()=>{
+//     return(
+//         <div>
+//             <h3>Footer3</h3>
+//         </div>
+//     )
+// }
+
+// export default FruitList;
+
+
+// --------------------------------------------
+
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+
+const Login = () => {
+
+  let navigate=useNavigate()
+
+  let [login,setlogin]=useState({
+    myemail:"",
+    mypassword:"",
+  })
