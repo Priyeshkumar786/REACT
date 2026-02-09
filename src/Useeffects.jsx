@@ -141,3 +141,19 @@ const Login = () => {
     myemail:"",
     mypassword:"",
   })
+
+  let handlechange=(e)=>{
+    setlogin({...login,[e.target.name]:e.target.value})
+  }
+
+  let handlesubmit=(e)=>{
+    e.preventDefault() ;
+
+    let valid=true
+
+
+    if(!(login.myemail==localStorage.getItem("myemail"))){
+      alert("email not registered")
+      // document.querySelector('#email').focus()
+      valid=false
+    }
